@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Producto">
+  <ClassDiagramComponents>
+    <Class name="Producto" package="" visibility="public" xPosition="235.0" yPosition="113.0">
+      <Fields>
+        <Field name="codigo" type="int" visibility="private"/>
+        <Field name="nombre" type="char" visibility="private"/>
+        <Field name="precio_compra" type="double" visibility="private"/>
+        <Field name="porc_utlidad" type="double" visibility="private"/>
+        <Field name="precio_publico" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setPrecioventa" returnType="void" visibility="public">
+          <Argument type="double" name="precio_publico"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

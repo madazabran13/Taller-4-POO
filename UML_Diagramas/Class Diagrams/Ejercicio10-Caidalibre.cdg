@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio10">
+  <ClassDiagramComponents>
+    <Class name="Caidalibre" package="Ejercicio10" visibility="public" xPosition="245.0" yPosition="91.0">
+      <Fields>
+        <Field name="gravedad" type="double" visibility="private"/>
+        <Field name="tiempo" type="double" visibility="private"/>
+        <Field name="velinicial" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getGravedad" returnType="double" visibility="public"/>
+        <Method name="setGravedad" returnType="void" visibility="public">
+          <Argument type="double" name="g"/>
+        </Method>
+        <Method name="getTiempo" returnType="double" visibility="public"/>
+        <Method name="setTiempo" returnType="void" visibility="public">
+          <Argument type="double" name="t"/>
+        </Method>
+        <Method name="getVelinicial" returnType="double" visibility="public"/>
+        <Method name="setVelinicial" returnType="void" visibility="public">
+          <Argument type="double" name="vi"/>
+        </Method>
+        <Method name="calcularDistancia" returnType="double" visibility="public"/>
+        <Method name="calcularVelocidad" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

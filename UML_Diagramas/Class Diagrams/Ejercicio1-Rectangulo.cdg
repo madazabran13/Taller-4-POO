@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio1">
+  <ClassDiagramComponents>
+    <Class name="Rectangulo" package="" visibility="public" xPosition="250.0" yPosition="123.0">
+      <Fields>
+        <Field name="base" type="double" visibility="private"/>
+        <Field name="altura" type="dpuble" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getBase" returnType="double" visibility="public"/>
+        <Method name="setBase" returnType="void" visibility="public">
+          <Argument type="double" name="b"/>
+        </Method>
+        <Method name="calcularArea" returnType="double" visibility="public"/>
+        <Method name="calcularPerimetro" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio9">
+  <ClassDiagramComponents>
+    <Class name="Fraccion" package="Ejercicio9" visibility="public" xPosition="233.0" yPosition="49.0">
+      <Fields>
+        <Field name="numerador1" type="int" visibility="private"/>
+        <Field name="denominador1" type="int" visibility="private"/>
+        <Field name="numerador2" type="int" visibility="private"/>
+        <Field name="denominador2" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getNumerador1" returnType="int" visibility="public"/>
+        <Method name="setNumerador1" returnType="void" visibility="public">
+          <Argument type="int" name="n1"/>
+        </Method>
+        <Method name="getDenominador1" returnType="int" visibility="public"/>
+        <Method name="setDenominador1" returnType="void" visibility="public">
+          <Argument type="int" name="d1"/>
+        </Method>
+        <Method name="getNumerador2" returnType="int" visibility="public"/>
+        <Method name="setNumerador2" returnType="void" visibility="public">
+          <Argument type="int" name="n2"/>
+        </Method>
+        <Method name="getDenominador2" returnType="int" visibility="public"/>
+        <Method name="setDenominador2" returnType="void" visibility="public">
+          <Argument type="int" name="d2"/>
+        </Method>
+        <Method name="sumarFraccion" returnType="double" visibility="public"/>
+        <Method name="restarFraccion" returnType="double" visibility="public"/>
+        <Method name="multiplicarFraccion" returnType="double" visibility="public"/>
+        <Method name="dividirFraccion" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
